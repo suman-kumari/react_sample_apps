@@ -1,0 +1,63 @@
+body{
+  background-color: #fffeee;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+}
+
+h1{
+  color: #000444;
+  font-weight: bold;
+  font-size: 2.3em;
+  text-align: center;
+  padding: 25px;
+}
+
+#example{
+  color: #000000;
+  margin: 20px;
+}
+
+input[type="text"] {
+  box-shadow: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+  width: 300px;
+  border-radius: 2px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
